@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+}
+
+.circle {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+}
+
+.portrait {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+}
