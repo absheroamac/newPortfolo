@@ -1,0 +1,21 @@
+.sci-fi-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000; /* Optional: sci-fi themed background */
+  color: #00ffcc;
+  font-family: "Courier New", monospace;
+  font-size: 2rem;
+  overflow: hidden;
+}
+
+.sci-fi-text {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.sci-fi-text:hover {
+  color: #ff33cc;
+}
