@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import Hero from "./Hero";
-import DeveloperCard from "./Cards/DeveloperCard";
+import ExperienceCard from "./Cards/ExperienceCard";
 
 const Landing = () => {
   return (
@@ -18,21 +18,21 @@ const Landing = () => {
         sx={{ display: "flex", gap: "1rem", paddingTop: "1rem" }}
       >
         <Box
+          width={"40%"}
+          height={"100%"}
+          sx={{ backgroundColor: "#1D1F2B", borderRadius: "2rem" }}
+        ></Box>
+        <Box
           width={"30%"}
           height={"100%"}
-          sx={{ backgroundColor: "white", borderRadius: "2rem" }}
+          sx={{ backgroundColor: "#1D1F2B", borderRadius: "2rem" }}
         >
-          <DeveloperCard />
+          <ExperienceCard />
         </Box>
         <Box
           width={"30%"}
           height={"100%"}
-          sx={{ backgroundColor: "white", borderRadius: "2rem" }}
-        ></Box>
-        <Box
-          width={"40%"}
-          height={"100%"}
-          sx={{ backgroundColor: "white", borderRadius: "2rem" }}
+          sx={{ backgroundColor: "#1D1F2B", borderRadius: "2rem" }}
         ></Box>
       </Box>
     </Box>
