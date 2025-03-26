@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import Hero from "./Hero";
 import ExperienceCard from "./Cards/ExperienceCard";
+import Slider from "./Slider";
 
 const Landing = () => {
   return (
@@ -21,19 +22,31 @@ const Landing = () => {
           width={"40%"}
           height={"100%"}
           sx={{ backgroundColor: "#1D1F2B", borderRadius: "2rem" }}
-        ></Box>
+        >
+          <Slider />
+        </Box>
         <Box
           width={"30%"}
           height={"100%"}
-          sx={{ backgroundColor: "#1D1F2B", borderRadius: "2rem" }}
+          sx={{
+            backgroundColor: "#1D1F2B",
+            borderRadius: "2rem",
+            overflow: "hidden",
+          }}
         >
           <ExperienceCard />
         </Box>
         <Box
           width={"30%"}
           height={"100%"}
-          sx={{ backgroundColor: "#1D1F2B", borderRadius: "2rem" }}
-        ></Box>
+          sx={{
+            backgroundColor: "#1D1F2B",
+            borderRadius: "2rem",
+            overflow: "hidden",
+          }}
+        >
+          <ExperienceCard />
+        </Box>
       </Box>
     </Box>
   );

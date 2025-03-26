@@ -1,0 +1,32 @@
+.bannerContainer {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.bannerTrack {
+  display: flex;
+  width: fit-content;
+  animation: scroll linear infinite;
+  animation-duration: 5000ms;
+}
+
+.bannerTrack:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-40%);
+  }
+}
+
+.item {
+  display: inline-block;
+  padding: 10px;
+}
