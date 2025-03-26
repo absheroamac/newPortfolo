@@ -19,33 +19,33 @@ const Landing = () => {
         sx={{ display: "flex", gap: "1rem", paddingTop: "1rem" }}
       >
         <Box
+          width={"30%"}
+          height={"100%"}
+          sx={{
+            backgroundColor: "#1D1F2B",
+            borderRadius: "2rem",
+            overflow: "hidden",
+          }}
+        >
+          <ExperienceCard />
+        </Box>
+        <Box
+          width={"30%"}
+          height={"100%"}
+          sx={{
+            backgroundColor: "#1D1F2B",
+            borderRadius: "2rem",
+            overflow: "hidden",
+          }}
+        >
+          <ExperienceCard />
+        </Box>
+        <Box
           width={"40%"}
           height={"100%"}
           sx={{ backgroundColor: "#1D1F2B", borderRadius: "2rem" }}
         >
           <Slider />
-        </Box>
-        <Box
-          width={"30%"}
-          height={"100%"}
-          sx={{
-            backgroundColor: "#1D1F2B",
-            borderRadius: "2rem",
-            overflow: "hidden",
-          }}
-        >
-          <ExperienceCard />
-        </Box>
-        <Box
-          width={"30%"}
-          height={"100%"}
-          sx={{
-            backgroundColor: "#1D1F2B",
-            borderRadius: "2rem",
-            overflow: "hidden",
-          }}
-        >
-          <ExperienceCard />
         </Box>
       </Box>
     </Box>

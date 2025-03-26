@@ -20,11 +20,11 @@ const Slide = () => {
           width: "100%",
           height: "100%",
           objectFit: "cover",
-          objectPosition: "20% 50%", // Adjust position as needed
-          position: "absolute", // Fix: Make the image absolute
+          objectPosition: "20% 50%",
+          position: "absolute",
           top: 0,
           left: 0,
-          zIndex: 1, // Image should be below the overlay
+          zIndex: 1,
         }}
       />
 
@@ -81,7 +81,7 @@ const Slide = () => {
           <Box sx={{ width: "70%" }}>
             <Typography
               variant="h3"
-              fontSize={"2.5rem"}
+              fontSize={"2rem"}
               color="white"
               textAlign={"left"}
             >
